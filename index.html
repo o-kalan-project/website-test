@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <header class="fixed flex items-center w-screen -bottom-100 top-0 bg-white">
+      <a href="./index.html"
+        ><img src="./logo.png" width="25%" height="25%" class="block p-3 pl-10 max-md:hidden"
+      /></a>
+      <nav class="ml-auto py-auto justify-between p-3 pr-10">
+        <ul class="flex items-center gap-4 whitespace-nowrap">
+          <li>
+            <a href="./character.html" id="olan2" style="color: pink"
+              >当キャラクターについて</a
+            >
+          </li>
+          <li>
+            <a href="./kiyaku.html" id="olan2" style="color: pink">利用規約</a>
+          </li>
+          <li><a href="./utau.html" id="olan2" style="color: pink">UTAU</a></li>
+          <li>
+            <a href="./updatelog.html" id="olan2" style="color: pink"
+              >アップデート記録</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+  <style>
+    /* header {
+      padding: 30px 4% 10px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      height: 50px;
+      bottom: -100;
+    } */
+  </style>
+</html>
