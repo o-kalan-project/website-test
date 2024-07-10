@@ -19,6 +19,9 @@ module.exports = {
           },
         },
       },
+      fontFamily: {
+        'keifont' : ['keifont'],
+      },
     },
   },
   plugins: [],
