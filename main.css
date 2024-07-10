@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: keifont;
-  src: url(./fonts/keifont.ttf);
+  src: url('./keifont.ttf');
 }
 
 #app {
