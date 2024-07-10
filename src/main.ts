@@ -1,5 +1,4 @@
-import '../main.css'
-import { setupCounter } from './counter.ts'
+import '../main.css';
 document.querySelector<HTMLDivElement>('#app')!.innerHTML += `
   <div class="flex justify-between items-center gap-4">
   <div class="animate-slide-in-bck-left text-[min(3vw,34px)]">
@@ -10,4 +9,3 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML += `
   </div>
 `
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
