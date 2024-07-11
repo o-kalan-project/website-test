@@ -34,6 +34,15 @@ module.exports = {
       fontFamily: {
         keifont: ["keifont"],
       },
+      animationDelay: {
+        1600: "1600ms",
+        1700: "1700ms",
+        1800: "1800ms",
+        1900: "1900ms",
+        2100: "2100ms",
+        2200: "2200ms",
+        2300: "2300ms",
+      },
     },
   },
   plugins: [

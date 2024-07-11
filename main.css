@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/*
+'/<ファイル名>'だとpublic参照、
+'./<ファイル名>'だとassets参照
+*/
 @font-face {
   font-family: keifont;
   src: url('/keifont.ttf');

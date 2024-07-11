@@ -4,8 +4,8 @@ document.body.insertAdjacentHTML('afterbegin',`
 <a href="./"
   ><img
     src="./logo.webp"
-    width="50%"
-    height="50%"
+    width="90%"
+    height="90%"
     class="block p-1 md:ml-10 max-w-[183px] max-h-[79px] min-w-[78px] min-h-[33px]"
 /></a>
 <nav class="ml-auto py-auto justify-between p-3 md:mr-10">
@@ -14,7 +14,7 @@ document.body.insertAdjacentHTML('afterbegin',`
       <a
         href="./about"
         style="color: pink"
-        class="text-[min(3vw,21px)]"
+        class="text-[min(3vw,24px)]"
         >応歌ランについて</a
       >
     </li>
@@ -22,7 +22,7 @@ document.body.insertAdjacentHTML('afterbegin',`
       <a
         href="./eula"
         style="color: pink"
-        class="text-[min(3vw,21px)]"
+        class="text-[min(3vw,24px)]"
         >利用規約</a
       >
     </li>
@@ -30,7 +30,7 @@ document.body.insertAdjacentHTML('afterbegin',`
       <a
         href="./utau"
         style="color: pink"
-        class="text-[min(3vw,21px)]"
+        class="text-[min(3vw,24px)]"
         >UTAU</a
       >
     </li>
@@ -38,7 +38,7 @@ document.body.insertAdjacentHTML('afterbegin',`
       <a
         href="./changelog"
         style="color: pink"
-        class="text-[min(3vw,21px)]"
+        class="text-[min(3vw,24px)]"
         >更新履歴</a
       >
     </li>
