@@ -9,7 +9,7 @@ document.querySelector<HTMLDivElement>('#app')!.insertAdjacentHTML('beforeend', 
   </div>
 `)
 
-addEventListener("scroll", (event) => {
+addEventListener("scroll", () => {
   document.querySelector<HTMLDivElement>('#app')!.insertAdjacentHTML('beforeend', `
     <div class="flex justify-between items-center gap-4">
   <div
