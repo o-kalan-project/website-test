@@ -14,5 +14,8 @@
     "tailwindcss": "^3.4.4",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "tailwindcss-animation-delay": "^2.0.0"
   }
 }
