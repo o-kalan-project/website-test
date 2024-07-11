@@ -1,72 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-    <link rel="stylesheet" href="/main.css" />
-  </head>
-  <body class="font-keifont">
-    <header class="fixed flex items-center w-screen -bottom-100 top-0 bg-white z-10 shadow-xl">
-      <a href="./"
-        ><img
-          src="./logo.webp"
-          width="50%"
-          height="50%"
-          class="block p-1 md:ml-10 max-w-[183px] max-h-[79px] min-w-[78px] min-h-[33px]"
-      /></a>
-      <nav class="ml-auto py-auto justify-between p-3 md:mr-10">
-        <ul class="flex items-center gap-4 whitespace-nowrap">
-          <li>
-            <a
-              href="./character.html"
-              style="color: pink"
-              class="text-[min(3vw,21px)]"
-              >応歌ランについて</a
-            >
-          </li>
-          <li>
-            <a
-              href="./kiyaku.html"
-              style="color: pink"
-              class="text-[min(3vw,21px)]"
-              >利用規約</a
-            >
-          </li>
-          <li>
-            <a
-              href="./utau.html"
-              style="color: pink"
-              class="text-[min(3vw,21px)]"
-              >UTAU</a
-            >
-          </li>
-          <li>
-            <a
-              href="./updatelog.html"
-              style="color: pink"
-              class="text-[min(3vw,21px)]"
-              >更新履歴</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
-  <style>
-    /* header {
-      padding: 30px 4% 10px;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background-color: #fff;
-      display: flex;
-      align-items: center;
-      height: 50px;
-      bottom: -100;
-    } */
-  </style>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/webp" href="/favicon.webp" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>応歌ラン-メインページ-</title>
+  <link rel="stylesheet" href="/main.css" />
+</head>
+
+<body class="font-keifont">
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+  <script type="module" src="/src/header.ts"></script>
+</body>
+<style>
+  #app {
+    background-image: url('/model.webp');
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+</style>
+
 </html>
