@@ -7,7 +7,7 @@ document.body.insertAdjacentHTML('beforeend',`
             <a
               style="color: pink"
               class="text-[min(3vw,24px)]"
-              >桜花爛漫</a
+              >桜花爛漫 2024-</a
             >
           </li>
         </ul>
